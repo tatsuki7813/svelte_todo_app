@@ -6,3 +6,4 @@
 </script>
 
 <RoutifyIntro />
+<a href="/todo">TODOページへ</a>

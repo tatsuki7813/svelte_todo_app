@@ -13,3 +13,10 @@ export const addTodo = (todo) => {
   const newTodos = [...currentTodos, todo];
   saveTodos(newTodos);
 }
+
+export const updateTodo = (todoId, todo) => {
+  const currentTodos = loadTodos();
+  currentTodos[todoId] = todo;
+  const newTodos = currentTodos;
+  saveTodos(newTodos);
+}

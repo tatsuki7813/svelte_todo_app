@@ -1,5 +1,5 @@
 <script>
-  import { url } from '@roxi/routify'
+  import { url } from '@roxi/routify';
   import Editor from './_components/Editor.svelte';
   import { addTodo } from './_components/assets/storage';
   let title = '';
